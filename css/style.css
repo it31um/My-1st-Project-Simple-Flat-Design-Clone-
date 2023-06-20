@@ -1,0 +1,865 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style-type: none;
+}
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+	
+
+}
+
+
+h1 {
+	font-size: 42.16px;
+	line-height: 50px;
+}
+
+
+
+
+
+
+
+/*====================================================================*/
+/*                     Common area start                                 */
+/*====================================================================*/
+
+
+.w-50 {
+	width: 50%;
+	float: left;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+
+.w-50::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+/*====================================================================*/
+/*                     Common area End                                 */
+/*====================================================================*/
+
+
+
+
+/*====================================================================*/
+/*                     Header area start                                 */
+/*====================================================================*/
+
+
+
+header {
+	background: linear-gradient(#87509cf0,#87509cf0), url('images/header-bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center bottom;
+	background-size: cover;
+	height: 85vh;
+	padding-top: 50px;
+	color: #fff;
+	
+}
+
+
+
+
+
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+.img-section {
+	float: left;
+}
+
+
+.menu-section {
+	float: right;
+}
+
+.menu-section ul {
+	display: block;
+	margin-top: 7px;
+	
+	
+}
+
+
+.menu-section ul li {
+	display: inline-block;
+	
+}
+
+
+.head-text {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+
+
+.head-text a {
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	padding: 20px 85px;
+	background: #eb7d4b;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-top: 50px;
+	border-bottom: 4px solid #c86a40;
+	
+}
+
+
+.menu-section ul li a:link, 
+.menu-section ul li a:visited {
+	text-decoration: none;
+	
+	text-transform: uppercase;
+	padding: 5px 20px;
+	margin-right: 10px;
+	color: #fff;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+
+
+.menu-section ul li a:hover {
+	background: #643a79;
+}
+
+
+.menu-section ul li .active {
+	background: #643a79;
+}
+
+
+
+/*====================================================================*/
+/*                     header area End                                 */
+/*====================================================================*/
+
+
+
+/*====================================================================*/
+/*                     Service area Strat                                 */
+/*====================================================================*/
+
+
+.services-section {
+	background: linear-gradient(#17c2a4e5,#17c2a4f2), url('images/serveces.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	color: #fff;
+}
+
+
+.services-text {
+	text-align: center;
+	margin-top: 80px;
+}
+
+
+
+h2 {
+	font-size: 40px;
+	font-weight: 600;
+	letter-spacing: 5px;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+
+h2::after {
+	content: "";
+	display: block;
+	height: 4px;
+	background: #14a58c;
+	width: 80px;
+	margin: auto;
+}
+
+
+p {
+	font-size: 18px;
+	
+}
+
+
+.services {
+	overflow: hidden;
+	margin-bottom: 80px;
+}
+
+
+.w-25 {
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+.Roket::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+h3 {
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 35px;
+	margin-bottom: 10px;
+}
+
+
+.services p {
+	font-size: 16px;
+	padding: 0 20px;
+	font-weight: 300;
+}
+
+
+.icon {
+	height: 126px;
+	margin-top: 70px;
+}
+
+
+
+
+/*====================================================================*/
+/*                     Service area End                                 */
+/*====================================================================*/
+
+
+/*====================================================================*/
+/*                     Team area Start                                 */
+/*====================================================================*/
+
+
+.team-section {
+	background: linear-gradient(#caa981ed,#e1d8ccf2), url('images/team-bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+}
+
+
+.team-text {
+	text-align: center;
+	margin-top: 80px;
+}
+
+
+.team-text h2 {
+	font-weight: 600;
+	color: #3c4761;
+}
+
+
+
+.team-text h2::after {
+	content: "";
+	display: block;
+	height: 4px;
+	background: #e8d6b4;
+	width: 80px;
+	margin: auto;
+}
+
+.team-text p {
+	font-size: 18.56px;
+	color: #3c4761;
+}
+
+
+.profile {
+	width: 150px;
+	margin-top: 70px;
+	margin-bottom: 15px;
+	border-radius: 50%;
+	height: 150px;
+}
+
+
+.team-profile h3 {
+	margin: 0;
+	color: #3c4761;
+}
+
+
+.team-profile h5 {
+	text-transform: capitalize;
+	color: #3cbee8;
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+
+.team-section .w-25 p {
+	font-size: 16px;
+	padding: 0 35px;
+	font-weight: 300;
+}
+
+
+.team-section .w-25 ul li {
+	display: inline-block;
+}
+
+
+
+.social-link {
+	margin-bottom: 80px;
+	margin-top: 25px;
+}
+
+
+
+.team-section .w-25 ul li a:link,
+.team-section .w-25 ul li a:visited {
+	color: #e8d6b4;
+	
+	
+}
+
+
+
+.team-section .w-25 ul li i {
+	background: #697e8c;
+	margin-right: 10px;
+	padding: 5px 5px;
+	border-radius: 50%;
+	font-size: 20px;
+	transition: 0.5s;
+}
+
+
+.team-section .w-25 ul li i:hover {
+	transform: rotate(380deg);
+}
+
+
+/*====================================================================*/
+/*                     Team area End                                 */
+/*====================================================================*/
+
+
+
+/*====================================================================*/
+/*                     Skill section area Start                                 */
+/*====================================================================*/
+
+
+.skill-section {
+	background: linear-gradient(#ffffffe5,#ffffffe8), url('images/skill-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+
+
+
+.skill-section .w-25 {
+	margin-top: 50px;
+}
+
+
+.skill-text {
+	margin-top: 80px;
+	text-align: center;
+}
+
+
+.skill-text h2 {
+	font-weight: 600;
+	color: #3c4761;
+}
+
+
+.skill-section .w-25 h3 {
+	margin-top: 0;
+	font-weight: 600;
+	color: #3c4761;
+}
+
+
+
+
+.skill-text h2::after {
+	content: "";
+	display: block;
+	height: 4px;
+	background: #dfe8ed;
+	width: 80px;
+	margin: auto;
+}
+
+
+
+.skill-text p, 
+.portfolio-text p,
+.about-text p {
+	font-size: 18px;
+	font-weight: 400;
+	color: #3c4761;
+}
+
+
+svg.radial-progress circle {
+	stroke-width: 5px;
+}
+
+
+svg.radial-progress text {
+	fill: #3c4761;
+	font-size: 15px;
+}
+
+
+
+
+svg.web-design circle {
+	stroke: #30bae7;
+}
+
+
+
+
+svg.html-css circle {
+	stroke: #d74680;
+}
+
+
+
+
+
+svg.Graphic-design circle {
+	stroke: #15c7a8;
+}
+
+
+
+
+svg.ui-ux circle {
+	stroke: #eb7d4b;
+}
+
+
+
+
+/*====================================================================*/
+/*                     Skill section area End                          */
+/*====================================================================*/
+
+
+
+/*====================================================================*/
+/*                     Portfolio section area Start                          */
+/*====================================================================*/
+
+.portfolio-section {
+	background: linear-gradient(#ffdd99e3, #ffdd99e5), url('images/profolio-bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center bottom;
+	background-size: cover;
+}
+
+
+
+.portfolio-text, 
+.about-text {
+	text-align: center;
+	margin-top: 80px;
+	
+}
+
+
+.portfolio-text h2 {
+	font-weight: 600;
+	color: #3c4761;
+}
+
+
+.portfolio-text h2::after {
+	content: "";
+	display: block;
+	height: 4px;
+	background: #e5c37f;
+	width: 80px;
+	margin: auto;
+}
+
+
+.portfolio-btn {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+
+.portfolio-btn button {
+	padding: 5px 15px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 400;
+	background: #ebc985;
+	border: 0;
+	color: #3c4761;
+	margin-right: 10px;
+	border-radius: 4px;
+	transition: 0.3s;
+}
+
+
+.portfolio-btn button:hover {
+	box-shadow: inset 0px 7px 8px -3px #594f4f;
+}
+
+
+.portfolio-section .w-50 img {
+	height: 250px;
+	
+}
+
+
+.portfolio-section .w-50 h4 {
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color:#3c4761;
+}
+
+.load-more {
+	text-align: center;
+}
+
+
+.load-more a {
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	padding: 15px 60px;
+	background: #17c2a4;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	border-bottom: 4px solid #14a58c;
+	
+}
+
+/*====================================================================*/
+/*                     Portfolio section area End                     */
+/*====================================================================*/
+
+
+
+/*====================================================================*/
+/*                     About section area Start                     */
+/*====================================================================*/
+
+
+.about-section {
+	color: #fff;
+	background: linear-gradient(#d74680f5, #d74680f0), url('images/about-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+}
+
+
+.about-text h2 {
+	font-weight: 500;
+	
+}
+
+.about-text p {
+	color: #fff;
+}
+
+
+.about-text {
+	margin-bottom: 50px;
+}
+
+
+
+.about-text h2::after {
+	content: "";
+	display: block;
+	height: 4px;
+	background: #b73c6d;
+	width: 80px;
+	margin: auto;
+}
+
+
+.about-section .w-50 {
+	text-align: left;
+}
+
+
+.about-section .w-30 {
+	width: 30%;
+	float: left;
+}
+
+
+
+.about-section .w-70 {
+	width: 70%;
+	overflow: hidden;
+}
+
+
+
+.about-section .w-70 p.italic {
+	font-style: italic;
+	font-size: 18px;
+}
+
+
+.w-70 h3 {
+	margin: 0;
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+
+.w-70 h5 {
+	margin-top: -5px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #ffdd99;
+}
+
+.about-section .w-50 {
+	padding: 10px 30px;
+}
+
+
+
+
+
+.about-section .w-30 img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	/* margin-top: 50px; */
+}
+
+
+
+/*====================================================================*/
+/*                     About section area End                     */
+/*====================================================================*/
+
+
+/*====================================================================*/
+/*                     Contack section area Start                     */
+/*====================================================================*/
+
+
+.contack-section {
+	background: linear-gradient(#3c5499e8, #3c5499f2), url('images/contack-bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	
+}
+
+
+
+.contack-text h2 {
+	font-weight: 500;
+	color: #fff;
+	
+}
+
+.contack-text p {
+	color: #fff;
+}
+
+
+.contack-text {
+	margin-bottom: 50px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+
+.contack-text h2::after {
+	content: "";
+	display: block;
+	height: 4px;
+	background: #273a71;
+	width: 80px;
+	margin: auto;
+}
+
+
+
+.form-section {
+	width: 70%;
+	margin: auto;
+}
+
+
+
+.form-section form input {
+	display: block;
+	background: #273a71;
+	padding: 10px;
+	border: 0;
+	font-size: 20px;
+	text-align: left;
+	color: #fff;
+	border-radius: 3px;
+}
+
+
+.form-section form input.w-50 {
+	width: 48%;
+	float: left;
+}
+
+
+.form-section form input.space {
+	float: right;
+}
+
+
+.form-section input.w-50::after {
+	content: "";
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+
+
+.form-section form input[type=submit] {
+	text-align: center;
+	display: block;
+	width: 30%;
+	margin: 40px auto 80px;
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	background: #30bae7;
+	border-bottom: 3px solid #299ec5;
+	padding: 15px 0;
+}
+
+
+.form-section form input[type=submit]:hover {
+	cursor: pointer;
+}
+
+
+.form-section textarea {
+	background: #273a71;
+	border: 0;
+	width: 100%;
+	font-size: 20px;
+	color: #fff;
+	padding: 15px;
+	margin-top: -20px;
+	border-radius: 3px;
+	height: 200px;
+}
+
+
+.form-section textarea:focus {
+  border: 0;
+}  
+
+
+.form-section form ::placeholder {
+	color: #fff;
+	opacity: .8;
+}
+
+/*====================================================================*/
+/*                     Contack section area End                     */
+/*====================================================================*/
+
+
+
+/*====================================================================*/
+/*                     Footer section area Start                     */
+/*====================================================================*/
+
+
+.footer-section {
+	background: #344b8e;
+}
+
+
+/* .social-links { */
+	/* width: 80%; */
+	/* margin: auto; */
+/* } */
+
+
+
+.social-links ul li {
+	display: inline-block;
+	margin: 0 35px;
+	padding: 30px 0;
+	
+	
+}
+
+
+.social-links ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 24px;
+	transition: 0.3s;
+	
+}
+
+
+
+.social-links ul li a:hover {
+	color: #30bae7;
+}
+
+
+
+/*====================================================================*/
+/*                     Footer section area End                     */
+/*====================================================================*/
